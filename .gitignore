@@ -16,6 +16,7 @@ venv/
 .DS_Store
 
 # IDE/editor specific files
+__pycache__
 .vscode/
 *.suo
 *.ntvs*
