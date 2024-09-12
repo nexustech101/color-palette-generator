@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <title>Color Palette Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color Palette Generator</h1>
+      <form id="upload-form" method="POST" enctype="multipart/form-data">
+        <label for="image">Select an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" />
+        <div id="preview" class="hidden"></div>
+        <label for="num_colors">Number of colors:</label>
+        <input
+          type="number"
+          id="num_colors"
+          name="num_colors"
+          min="1"
+          max="10"
+          value="4"
+        />
+        <button type="submit">Generate Palette</button>
+      </form>
+    </div>
+    <div id="palette"></div>
+
+    <div id="copy-message">Color copied to clipboard!</div>
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>
