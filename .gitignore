@@ -7,6 +7,11 @@ venv/
 # Log files
 *.log
 
+# Static files
+*.jpeg
+*.jpg
+*.png
+
 # OS-specific files
 .DS_Store
 
