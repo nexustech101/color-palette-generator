@@ -10,6 +10,7 @@
   <body>
     <div class="container">
       <h1>Color Palette Generator</h1>
+
       <form id="upload-form" method="POST" enctype="multipart/form-data">
         <label for="image">Select an image:</label>
         <input type="file" id="image" name="image" accept="image/*" />
@@ -25,10 +26,12 @@
         />
         <button type="submit">Generate Palette</button>
       </form>
+      
     </div>
-    <div id="palette"></div>
 
+    <div id="palette"></div>
     <div id="copy-message">Color copied to clipboard!</div>
+
     <script src="/static/js/script.js"></script>
   </body>
 </html>
