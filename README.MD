@@ -42,7 +42,7 @@ Color Palette Generator is a Flask-based web application that allows users to up
    python app.py
    ```
 
-2. Open a web browser and navigate to `http://localhost:5000`
+2. Open a web browser and navigate to `http://localhost:5000/color-palette`
 
 3. Use the interface to upload an image and generate a color palette:
    - Click "Choose File" to select an image from your computer

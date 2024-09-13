@@ -6,7 +6,7 @@ from img_utils import get_color_palette
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/color-palette', methods=['GET', 'POST'])
 def color_palette():
     if request.method == 'POST':
         # Check if an image file is in the request
